@@ -60,7 +60,7 @@ claude plugin install snap-closet@snap-closet
 ### ChatGPT (web, desktop, mobile)
 
 1. Open [chatgpt.com/plugins](https://chatgpt.com/plugins). If the option in step 2 is missing,
-   turn on Developer mode in ChatGPT settings first.
+   turn on Developer mode first: **Settings > Security and login > Developer mode**.
 2. Select the plus button, then **Add custom MCP server**.
 3. Name `Snap Closet`, URL `https://mcp.snap-closet.com/mcp`.
 4. Review the warning and continue, then **Create as a plugin**. Sign in to Snap Closet when asked.
