@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "snap-closet": {
+      "type": "http",
+      "url": "https://mcp.snap-closet.com/mcp"
+    }
+  }
+}

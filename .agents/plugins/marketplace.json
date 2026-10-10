@@ -1,0 +1,21 @@
+{
+  "name": "snap-closet",
+  "interface": {
+    "displayName": "Snap Closet"
+  },
+  "plugins": [
+    {
+      "name": "snap-closet",
+      "source": {
+        "source": "local",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "version": "0.1.0"
+    }
+  ]
+}

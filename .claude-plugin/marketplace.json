@@ -1,0 +1,17 @@
+{
+  "name": "snap-closet",
+  "owner": {
+    "name": "zhuduji-tech",
+    "url": "https://snap-closet.com"
+  },
+  "description": "Snap Closet for Claude: the Snap Closet MCP connector packaged as a plugin.",
+  "plugins": [
+    {
+      "name": "snap-closet",
+      "source": "./claude",
+      "description": "Your Snap Closet wardrobe in the conversation: search and show the garments you own, add new ones from photos, get outfit suggestions, plan and log what you wear, and read a diagnosis of your closet.",
+      "version": "0.1.0",
+      "category": "Lifestyle"
+    }
+  ]
+}
