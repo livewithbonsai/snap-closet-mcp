@@ -67,6 +67,10 @@ claude plugin install snap-closet@snap-closet
 
 The plugin then shows up in the ChatGPT mobile apps signed in to the same account.
 
+When ChatGPT asks before a tool that changes your closet (adding garments, logging an outfit),
+choose **Allow once**. **Always allow** currently does nothing for tools that render a card; it is
+a ChatGPT-side issue, and either way the choice only lasts for the current conversation.
+
 ### Codex
 
 As a server:
