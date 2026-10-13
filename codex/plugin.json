@@ -17,7 +17,7 @@
       "interface": {
         "displayName": "Snap Closet",
         "shortDescription": "Your wardrobe in the chat: search it, get outfits, plan and log what you wear",
-        "longDescription": "Connects to your Snap Closet account over MCP. Ask what you own, search by category, colour, season or occasion, and see the garments as cards. Get outfit suggestions made only from your own clothes, put an outfit on a future day of the app's calendar, log what you wore, and read a diagnosis of your closet. Add new garments from photos: the server removes the background and tags them as the app does. The assistant receives garment tags and processed garment images, never photos of people.",
+        "longDescription": "Connects to your Snap Closet account over MCP. Ask what you own, search by category, colour, season or occasion, and see the garments as cards. Get outfit suggestions made only from your own clothes, put an outfit on a future day of the app's calendar, log what you wore, and read a diagnosis of your closet. Add new garments from photos: the server removes the background and tags them as the app does. Your agent receives garment tags and processed garment images, never photos of people.",
         "developerName": "rikucherry",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],

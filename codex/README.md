@@ -17,7 +17,7 @@ removes the background and tags them as the app does.
 ## Data
 
 Every request goes to `mcp.snap-closet.com` under your own sign-in; the plugin stores nothing.
-The assistant receives garment tags and processed garment images, never photos of people. Policy:
+Your agent receives garment tags and processed garment images, never photos of people. Policy:
 <https://snap-closet.com/privacy>. Questions: support@snap-closet.com.
 
 Install steps for every client are in the repository README.
