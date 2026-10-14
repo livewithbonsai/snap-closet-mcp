@@ -1,14 +1,14 @@
 # Snap Closet connector
 
-Plugin manifests that connect Claude and ChatGPT to a [Snap Closet](https://snap-closet.com)
+Plugin manifests that connect Claude and ChatGPT to a [Snap Closet](https://snap-closet.com?src=plugin_readme)
 account over MCP. One remote server, `https://mcp.snap-closet.com/mcp`, serves every client;
 this repository only packages it. After you sign in, your agent can look through the garments
 you keep in Snap Closet, show them as cards, suggest outfits made only from clothes you own, put
 an outfit on the app's calendar, log what you wore, read the closet diagnosis, and add new
 garments from photos. No gateway or app code lives here.
 
-> **Status:** the service is in preparation. Until `https://mcp.snap-closet.com/mcp` is live,
-> the steps below register the connector but it will not connect.
+> **Status:** the MCP service is live. Connect Claude, ChatGPT, Codex or Claude Code
+> using the steps below, then sign in with your Snap Closet account.
 
 ## What it can do
 
@@ -90,10 +90,11 @@ codex plugin add snap-closet@snap-closet
 ## Privacy
 
 Everything goes through `mcp.snap-closet.com` with your own Snap Closet sign-in; the plugin
-files store nothing and carry no credentials. Your agent receives garment tags and the
-processed garment images, never photos of people. A photo you upload to find a similar garment
-is deleted once the garment has been cut out of it. Policy:
-[snap-closet.com/privacy](https://snap-closet.com/privacy). Questions and account requests:
+files store nothing and carry no credentials. Your agent receives garment tags and closet records. The images saved with your garments
+can appear in tool cards; image links are not sent to the model. Outfit photos, try-on images
+and fitting models are not shared through this connection. Temporary photos uploaded for
+similar-item search are deleted after the garment is extracted. Policy:
+[snap-closet.com/privacy](https://snap-closet.com/privacy?src=plugin_readme). Questions and account requests:
 support@snap-closet.com.
 
 ## Layout
