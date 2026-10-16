@@ -14,7 +14,7 @@ to the closet, background removed and tagged as the app does.
 ## Data
 
 Every request goes to `mcp.snap-closet.com` under your own sign-in; the plugin stores nothing.
-Claude receives garment tags and processed garment images, never photos of people. Policy:
+Claude receives garment tags and closet records. The images saved with your garments can appear in tool cards; image links are not sent to the model. Outfit photos, try-on images and fitting models are not shared through this connection. Policy:
 <https://snap-closet.com/privacy>. Questions: support@snap-closet.com.
 
 Install steps for every client are in the repository README.

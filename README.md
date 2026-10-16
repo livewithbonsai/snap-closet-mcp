@@ -50,7 +50,7 @@ As a server (then `/mcp` in a session to sign in):
 claude mcp add --transport http snap-closet https://mcp.snap-closet.com/mcp
 ```
 
-As a plugin from this repository (your Git credentials must be able to read it):
+As a plugin from this repository:
 
 ```bash
 claude plugin marketplace add zhuduji-tech/snap-closet-mcp
