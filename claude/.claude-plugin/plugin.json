@@ -10,5 +10,6 @@
   "homepage": "https://snap-closet.com",
   "repository": "https://github.com/livewithbonsai/snap-closet-mcp",
   "license": "MIT",
+  "privacyPolicyUrl": "https://snap-closet.com/privacy",
   "keywords": ["closet", "wardrobe", "outfits", "fashion", "mcp"]
 }
