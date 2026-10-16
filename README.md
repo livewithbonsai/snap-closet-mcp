@@ -1,4 +1,19 @@
+<div align="center">
+
 # Snap Closet connector
+
+<p>
+<a href="#install"><img src="https://img.shields.io/badge/Claude-Plugin-da7756" alt="Claude Plugin"></a>
+<a href="#chatgpt-web-desktop-mobile"><img src="https://img.shields.io/badge/ChatGPT%20%7C%20Codex-Plugin-000000" alt="ChatGPT and Codex Plugin"></a>
+<a href="#layout"><img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version 0.1.0"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
+</p>
+
+<a href="https://youtube.com/shorts/q5BxfYFBCeY"><img src="https://i.ytimg.com/vi/q5BxfYFBCeY/oar2.jpg" width="260" alt="Demo video: an agent shows the garments in a Snap Closet account as image cards"></a>
+
+<sub><a href="https://youtube.com/shorts/q5BxfYFBCeY">Watch the demo on YouTube</a></sub>
+
+</div>
 
 Plugin manifests that connect Claude and ChatGPT to a [Snap Closet](https://snap-closet.com?src=plugin_readme)
 account over MCP. One remote server, `https://mcp.snap-closet.com/mcp`, serves every client;
@@ -106,9 +121,9 @@ claude/                           Claude plugin: .claude-plugin/plugin.json, .mc
 codex/                            OpenAI portable plugin: plugin.json, mcp.json, .app.json, assets/
 ```
 
-Version `0.1.0` is set in four places: `claude/.claude-plugin/plugin.json`,
-`.claude-plugin/marketplace.json`, `codex/plugin.json` and `.agents/plugins/marketplace.json`.
-Change them together.
+Version `0.1.0` is set in five places: `claude/.claude-plugin/plugin.json`,
+`.claude-plugin/marketplace.json`, `codex/plugin.json`, `.agents/plugins/marketplace.json` and the
+version badge at the top of this README. Change them together.
 
 ## License
 
