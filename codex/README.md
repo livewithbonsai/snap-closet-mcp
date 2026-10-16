@@ -3,7 +3,7 @@
 Your Snap Closet wardrobe in ChatGPT and Codex. This is the OpenAI portable plugin (Agent
 Plugins 1.0.0): `plugin.json` is the manifest with the display fields under
 `extensions.com.openai.interface`, `mcp.json` names the remote connector
-`https://mcp.snap-closet.com/mcp`, `.app.json` stays empty, and `assets/` holds the icon and logo.
+`https://mcp.snap-closet.com/mcp`, and `assets/` holds the icon and logo.
 Sign in with your Snap Closet account when the plugin is installed.
 
 ## Use it
@@ -11,8 +11,8 @@ Sign in with your Snap Closet account when the plugin is installed.
 Ask what you own, search by category, colour, season or occasion, and see the garments as cards.
 Ask for an outfit and get looks made only from your own clothes, put one on a future day of the
 app's calendar, or log what you wore. Ask for a diagnosis to see gaps, duplicates and new
-combinations. Add garments from photos attached in the chat or through an upload link; the server
-removes the background and tags them as the app does.
+combinations. Add garments from photos through an upload link; the server removes the background and tags
+them as the app does.
 
 ## Data
 
