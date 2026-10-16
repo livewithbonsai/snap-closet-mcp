@@ -53,7 +53,7 @@ claude mcp add --transport http snap-closet https://mcp.snap-closet.com/mcp
 As a plugin from this repository:
 
 ```bash
-claude plugin marketplace add zhuduji-tech/snap-closet-mcp
+claude plugin marketplace add livewithbonsai/snap-closet-mcp
 claude plugin install snap-closet@snap-closet
 ```
 
@@ -83,7 +83,7 @@ codex mcp login snap-closet
 As a plugin from this repository:
 
 ```bash
-codex plugin marketplace add zhuduji-tech/snap-closet-mcp
+codex plugin marketplace add livewithbonsai/snap-closet-mcp
 codex plugin add snap-closet@snap-closet
 ```
 
