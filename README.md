@@ -117,7 +117,7 @@ support@snap-closet.com.
 ```
 .claude-plugin/marketplace.json   Claude marketplace for this repository -> ./claude
 .agents/plugins/marketplace.json  OpenAI marketplace for this repository -> ./codex
-claude/                           Claude plugin: .claude-plugin/plugin.json, .mcp.json
+claude/                           Claude plugin: .claude-plugin/plugin.json, .mcp.json, skills/
 codex/                            OpenAI portable plugin: plugin.json, mcp.json, assets/
 ```
 
