@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "snap-closet",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Your Snap Closet wardrobe in the conversation: search and show the garments you own, add new ones from photos, put together, plan and record outfits, and check how balanced your closet is.",
   "author": {
     "name": "rikucherry1993",
@@ -98,7 +98,7 @@
         "commerce_description": "The plugin does not sell products or process payments."
       },
       "publication": {
-        "release_notes": "Snap Closet 0.1.0, the first public release. Browse and search the clothes you own as image cards, put together, plan and record outfits on the Snap Closet calendar, add garments from photos, check whether you already own something like a garment in a photo, and get a summary of how balanced your closet is."
+        "release_notes": "Snap Closet 0.2.0. Same tools as 0.1.0, the first public release: browse and search the clothes you own as image cards, put together, plan and record outfits on the Snap Closet calendar, add garments from photos, check whether you already own something like a garment in a photo, and get a summary of how balanced your closet is."
       }
     }
   }

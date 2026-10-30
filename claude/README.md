@@ -1,7 +1,9 @@
 # Snap Closet
 
 Your Snap Closet wardrobe in the conversation. The plugin bundles one remote MCP connector,
-`https://mcp.snap-closet.com/mcp`; sign in with your Snap Closet account when Claude asks.
+`https://mcp.snap-closet.com/mcp`, and a `snap-closet` skill that tells Claude when to use it and
+how to show garments as cards. In Claude on the web and in the desktop app, connect Snap Closet
+from the plugin's **Connectors** tab; sign in with your Snap Closet account when Claude asks.
 
 ## Use it
 
