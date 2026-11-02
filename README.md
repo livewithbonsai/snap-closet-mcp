@@ -44,7 +44,7 @@ clipboard. No gateway or app code lives here.
 | Upload link | A short-lived link to upload photos from your phone or computer |
 | Plan | Puts an outfit on a future day of the app's calendar |
 | Log | Records what you wore on a day |
-| Save inspiration | Keeps an outfit picture you found elsewhere, with its link and your note, in the app's inspiration clipboard |
+| Save inspiration | Keeps an outfit picture you found elsewhere (a link, or a photo or screenshot from the chat), with your note, in the app's inspiration clipboard; your agent asks first when it is unclear whether a picture is a garment you own or an idea to keep |
 
 Garment images appear only inside the tool card; your agent never receives image links.
 
@@ -111,8 +111,8 @@ files store nothing and carry no credentials. Your agent receives garment tags a
 can appear in tool cards; image links are not sent to the model. Outfit photos, try-on images
 and fitting models are not shared through this connection. Temporary photos uploaded for
 similar-item search are deleted after the garment is extracted. When you ask to save an
-inspiration, the server fetches only that picture (for a page link, its cover image; page text is
-never read) and keeps it with the link and your note in your inspiration clipboard. Policy:
+inspiration, the server keeps only that picture (for a page link it fetches the cover image; page
+text is never read), with the link and your note, in your inspiration clipboard. Policy:
 [snap-closet.com/privacy](https://snap-closet.com/privacy?src=plugin_readme). Questions and account requests:
 support@snap-closet.com.
 
