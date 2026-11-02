@@ -9,8 +9,8 @@
     {
       "name": "snap-closet",
       "source": "./claude",
-      "description": "Your Snap Closet wardrobe in the conversation: search and show the garments you own, add new ones from photos, get outfit suggestions, plan and log what you wear, and read a diagnosis of your closet.",
-      "version": "0.2.0",
+      "description": "Your Snap Closet wardrobe in the conversation: search and show the garments you own, add new ones from photos, get outfit suggestions, plan and log what you wear, read a diagnosis of your closet, and save outfit inspiration you find elsewhere and recreate it from your own clothes.",
+      "version": "0.3.0",
       "category": "Lifestyle"
     }
   ]

@@ -5,7 +5,7 @@
 <p>
 <a href="#install"><img src="https://img.shields.io/badge/Claude-Plugin-da7756" alt="Claude Plugin"></a>
 <a href="#chatgpt-web-desktop-mobile"><img src="https://img.shields.io/badge/ChatGPT%20%7C%20Codex-Plugin-000000" alt="ChatGPT and Codex Plugin"></a>
-<a href="#layout"><img src="https://img.shields.io/badge/version-0.2.0-blue" alt="version 0.2.0"></a>
+<a href="#layout"><img src="https://img.shields.io/badge/version-0.3.0-blue" alt="version 0.3.0"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
 </p>
 
@@ -19,8 +19,10 @@ Plugin manifests that connect Claude and ChatGPT to a [Snap Closet](https://snap
 account over MCP. One remote server, `https://mcp.snap-closet.com/mcp`, serves every client;
 this repository only packages it. After you sign in, your agent can look through the garments
 you keep in Snap Closet, show them as cards, suggest outfits made only from clothes you own, put
-an outfit on the app's calendar, log what you wore, read the closet diagnosis, and add new
-garments from photos. No gateway or app code lives here.
+an outfit on the app's calendar, log what you wore, read the closet diagnosis, add new
+garments from photos, and save outfit pictures you find elsewhere to the app's inspiration
+clipboard and look at them again to put together an outfit after one. No gateway or app code lives
+here.
 
 > **Status:** the MCP service is live. Connect Claude, ChatGPT, Codex or Claude Code
 > using the steps below, then sign in with your Snap Closet account.
@@ -43,8 +45,12 @@ garments from photos. No gateway or app code lives here.
 | Upload link | A short-lived link to upload photos from your phone or computer |
 | Plan | Puts an outfit on a future day of the app's calendar |
 | Log | Records what you wore on a day |
+| Save inspiration | Keeps an outfit picture you found elsewhere (a link, or a photo or screenshot from the chat), with your note, in the app's inspiration clipboard; your agent asks first when it is unclear whether a picture is a garment you own or an idea to keep |
+| Read inspiration | Shows the outfit pictures you kept in the inspiration clipboard as cards; for the ones you pick, your agent can look at the pictures and put together a similar outfit from clothes you own |
 
-Garment images appear only inside the tool card; your agent never receives image links.
+Garment images appear only inside the tool card; your agent never receives image links. The one
+exception is inspiration: when you ask your agent to look at inspirations you saved, those pictures
+are attached to the result so it can see them.
 
 ## Install
 
@@ -108,7 +114,10 @@ Everything goes through `mcp.snap-closet.com` with your own Snap Closet sign-in;
 files store nothing and carry no credentials. Your agent receives garment tags and closet records. The images saved with your garments
 can appear in tool cards; image links are not sent to the model. Outfit photos, try-on images
 and fitting models are not shared through this connection. Temporary photos uploaded for
-similar-item search are deleted after the garment is extracted. Policy:
+similar-item search are deleted after the garment is extracted. When you ask to save an
+inspiration, the server keeps only that picture (for a page link it fetches the cover image; page
+text is never read), with the link and your note, in your inspiration clipboard. When you ask your
+agent to look at inspirations you saved, those pictures are sent to it. Policy:
 [snap-closet.com/privacy](https://snap-closet.com/privacy?src=plugin_readme). Questions and account requests:
 support@snap-closet.com.
 
@@ -121,7 +130,7 @@ claude/                           Claude plugin: .claude-plugin/plugin.json, .mc
 codex/                            OpenAI portable plugin: plugin.json, mcp.json, assets/
 ```
 
-Version `0.2.0` is set in five places: `claude/.claude-plugin/plugin.json`,
+Version `0.3.0` is set in five places: `claude/.claude-plugin/plugin.json`,
 `.claude-plugin/marketplace.json`, `codex/plugin.json`, `.agents/plugins/marketplace.json` and the
 version badge at the top of this README. Change them together.
 
