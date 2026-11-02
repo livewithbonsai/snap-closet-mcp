@@ -14,12 +14,13 @@ duplicates and new combinations. Share garment photos through an upload link and
 to the closet, background removed and tagged as the app does. Found an outfit you like elsewhere?
 Ask Claude to keep it, as a link or a picture you choose in the upload box, and it saves it with your
 note to the app's inspiration clipboard. When it is unclear whether a picture is a garment you own or
-an idea to keep, Claude asks first.
+an idea to keep, Claude asks first. Ask for an outfit like one of your inspirations and Claude looks at
+that picture and puts together a similar look from your own clothes.
 
 ## Data
 
 Every request goes to `mcp.snap-closet.com` under your own sign-in; the plugin stores nothing.
-Claude receives garment tags and closet records. The images saved with your garments can appear in tool cards; image links are not sent to the model. Outfit photos, try-on images and fitting models are not shared through this connection. When you ask to save an inspiration, the Snap Closet server keeps only that picture; page text is never read. Policy:
+Claude receives garment tags and closet records. The images saved with your garments can appear in tool cards; image links are not sent to the model. Outfit photos, try-on images and fitting models are not shared through this connection. When you ask to save an inspiration, the Snap Closet server keeps only that picture; page text is never read. When you ask Claude to look at inspirations you saved, those pictures are sent to it. Policy:
 <https://snap-closet.com/privacy>. Questions: support@snap-closet.com.
 
 Install steps for every client are in the repository README.

@@ -21,7 +21,8 @@ this repository only packages it. After you sign in, your agent can look through
 you keep in Snap Closet, show them as cards, suggest outfits made only from clothes you own, put
 an outfit on the app's calendar, log what you wore, read the closet diagnosis, add new
 garments from photos, and save outfit pictures you find elsewhere to the app's inspiration
-clipboard. No gateway or app code lives here.
+clipboard and look at them again to put together an outfit after one. No gateway or app code lives
+here.
 
 > **Status:** the MCP service is live. Connect Claude, ChatGPT, Codex or Claude Code
 > using the steps below, then sign in with your Snap Closet account.
@@ -45,8 +46,11 @@ clipboard. No gateway or app code lives here.
 | Plan | Puts an outfit on a future day of the app's calendar |
 | Log | Records what you wore on a day |
 | Save inspiration | Keeps an outfit picture you found elsewhere (a link, or a photo or screenshot from the chat), with your note, in the app's inspiration clipboard; your agent asks first when it is unclear whether a picture is a garment you own or an idea to keep |
+| Read inspiration | Shows the outfit pictures you kept in the inspiration clipboard as cards; for the ones you pick, your agent can look at the pictures and put together a similar outfit from clothes you own |
 
-Garment images appear only inside the tool card; your agent never receives image links.
+Garment images appear only inside the tool card; your agent never receives image links. The one
+exception is inspiration: when you ask your agent to look at inspirations you saved, those pictures
+are attached to the result so it can see them.
 
 ## Install
 
@@ -112,7 +116,8 @@ can appear in tool cards; image links are not sent to the model. Outfit photos, 
 and fitting models are not shared through this connection. Temporary photos uploaded for
 similar-item search are deleted after the garment is extracted. When you ask to save an
 inspiration, the server keeps only that picture (for a page link it fetches the cover image; page
-text is never read), with the link and your note, in your inspiration clipboard. Policy:
+text is never read), with the link and your note, in your inspiration clipboard. When you ask your
+agent to look at inspirations you saved, those pictures are sent to it. Policy:
 [snap-closet.com/privacy](https://snap-closet.com/privacy?src=plugin_readme). Questions and account requests:
 support@snap-closet.com.
 
